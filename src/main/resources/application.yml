@@ -18,3 +18,5 @@ eureka:
   client:
     registerWithEureka: true
     fetchRegistry: false
+  instance:
+    preferIpAddress: true
