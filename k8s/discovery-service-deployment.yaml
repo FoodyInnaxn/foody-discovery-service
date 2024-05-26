@@ -32,7 +32,7 @@ spec:
               value: "false"
             - name: spring.application.name
               value: discovery-service
-          image: innaxn/foody-discovery-service:latest
+          image: innaxn/foody-discovery-service:testing-latest
           name: discovery-service
           ports:
             - containerPort: 8761
