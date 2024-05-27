@@ -15,4 +15,4 @@ spec:
       targetPort: 8761
   selector:
     io.kompose.service: discovery-service
-  type: LoadBalancer
+  type: ClusterIP
