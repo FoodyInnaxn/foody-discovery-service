@@ -9,7 +9,7 @@
 
 spring:
   application:
-    name: registry
+    name: discovery-service
 
 server:
   port: 8761
@@ -18,3 +18,5 @@ eureka:
   client:
     registerWithEureka: true
     fetchRegistry: false
+  instance:
+    preferIpAddress: true
